@@ -1,4 +1,7 @@
 import _ from 'lodash';
+import notifications from './notifications';
+
+notifications.test();
 
 class Point {
     constructor(x, y) {
