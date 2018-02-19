@@ -15,6 +15,7 @@
     "buble-loader": "^0.4.1",
     "grunt": "^1.0.2",
     "grunt-webpack": "^3.0.2",
+    "raw-loader": "^0.5.1",
     "webpack": "^3.11.0",
     "webpack-dev-server": "^2.11.1"
   },

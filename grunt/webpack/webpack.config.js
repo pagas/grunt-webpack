@@ -19,11 +19,19 @@ module.exports = {
                 query: {
                     objectAssign: 'Object.assign'
                 }
+            },
+            {
+                test: /\.txt$/,
+                use: 'raw-loader'
             }
         ]
     },
     resolve: {
         modules: [nodeModulesPath],
+    },
+    resolveLoader: {
+        modules: [ nodeModulesPath],
+        alias: { txt: 'raw-loader' }
     },
     devtool: 'inline-cheap-source-map',
     watch: true,

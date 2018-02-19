@@ -1,6 +1,9 @@
 import _ from 'lodash';
 import notifications from './notifications';
 
+//import txt from 'raw-loader!./file.txt';
+import txt from 'txt!./text.txt';
+
 notifications.test();
 
 class Point {
